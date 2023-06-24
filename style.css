@@ -1,0 +1,176 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+  
+  header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  }
+  
+  nav {
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  nav li {
+  display: inline-block;
+  }
+  
+  nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  }
+  
+  nav a:hover {
+  background-color: #555;
+  }
+  
+  main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  section {
+  margin-bottom: 20px;
+  }
+  
+  h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  p {
+  font-size: 16px;
+  line-height: 1.5;
+  }
+  
+  img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  }
+  
+  footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  }
+  
+  /* Page-Specific Styles */
+  
+  /* Home Page */
+  
+  .hero {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  }
+  
+  .hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  }
+  
+  .hero p {
+  font-size: 24px;
+  }
+  
+  /* Causes Page */
+  
+  /* Effects Page */
+  
+  /* Solutions Page */
+  
+  ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  }
+  
+  ul li {
+  margin-bottom: 5px;
+  }
+  
+  /* Responsive Styles */
+  
+  @media only screen and (max-width: 768px) {
+  main {
+  padding: 10px;
+  }
+  
+  img {
+  margin-bottom: 20px;
+  }
+  
+  nav ul {
+  flex-direction: column;
+  }
+  
+  nav li {
+  display: block;
+  margin-bottom: 10px;
+  }
+  
+  nav a {
+  padding: 5px;
+  }
+  
+  .hero {
+  height: 200px;
+  }
+  
+  .hero h2 {
+  font-size: 36px;
+  }
+  
+  .hero p {
+  font-size: 18px;
+  }
+  }
+
+
+  #arctic-data {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  #data table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #data th,
+  #data td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #data th {
+    background-color: #008cba;
+    color: white;
+  }
+  
+  #data tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
